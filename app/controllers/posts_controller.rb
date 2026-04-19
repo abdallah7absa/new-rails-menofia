@@ -46,5 +46,5 @@ class PostsController < ApplicationController
     params.require(:post).permit(:title, :content)
   end
 
-  # I've use ai here
+  # I've used ai here
 end
